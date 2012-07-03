@@ -1,0 +1,19 @@
+Simple farkle dice game (aka 10,000).
+
+Rules can be found at en.wikipedia.org/wiki/Farkle
+
+Current version is incomplete.  Dice rolls/scoring is currently dictated by random number generator.
+
+ToDo:
+  --implement dice rolling mechanism
+  --add user choice of keeping dice and rolling rest
+  --add scoring algorithm
+  --ability to save game
+
+
+How to use:
+
+>>> game = Farkle()
+>>> game.Start()
+
+Then follow interactive prompt.
