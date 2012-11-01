@@ -45,9 +45,9 @@ class Farkle:
 
     def Round(self):
         self.round_count += 1
-        print; print "=================="
+        print; print "="*18
         print " Starting round {0}".format(self.round_count)
-        print "=================="; print
+        print "="*18; print
         if self.round_count > 1:
             print "{0} is currently in the lead with {1} points.".format(self.scores['_highest'][1], self.scores['_highest'][0]); print
             print "The total scores are:"
@@ -59,7 +59,7 @@ class Farkle:
         return
 
     def Turn(self, player):
-        raw_input("{0},it's your turn. Press enter when you are ready to roll.".format(player))
+        raw_input("{0}, it's your turn. Press enter when you are ready to roll.".format(player))
 
         score = random.randint(600, 2000)
 
