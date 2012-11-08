@@ -2,6 +2,8 @@ import re, random
 
 from dice import Dice
 
+#change
+
 class Farkle:
     '''A dice game in which players attempt to reach 10,000 in score
     by rolling six 6-sided die.  Points are scored by rolling ones, fives,
