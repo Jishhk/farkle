@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import re, random
 
 from dice import Dice
