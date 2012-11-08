@@ -62,10 +62,10 @@ class Farkle:
     def Turn(self, player):
         raw_input("{0}, it's your turn. Press enter when you are ready to roll.".format(player))
         
-        dice = sel
-        score = random.randint(600, 2000)
+        roll = self.dice.roll(6)
+        score = sum(roll)
 
-        print "  You scored {0}".format(score)
+        print "  You scored {0}".format(roll)
         self.scores[player] += score
 
         print "  Your score is now: {0}".format(self.scores[player]); print
