@@ -3,8 +3,6 @@ import re, random
 
 from dice import Dice
 
-#change
-
 class Farkle:
     '''A dice game in which players attempt to reach 10,000 in score
     by rolling six 6-sided die.  Points are scored by rolling ones, fives,
@@ -63,7 +61,8 @@ class Farkle:
 
     def Turn(self, player):
         raw_input("{0}, it's your turn. Press enter when you are ready to roll.".format(player))
-
+        
+        dice = sel
         score = random.randint(600, 2000)
 
         print "  You scored {0}".format(score)
